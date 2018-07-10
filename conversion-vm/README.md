@@ -8,7 +8,7 @@
 
 2. Create a VM locally with empty Volume and mounted installation image
 
-3. Start it and append boot options to use kickstart script (press Tab in boot menu and append text bellow - shortened link to this repo centos ks file)
+3. Start it and modify boot options to use kickstart script (press Tab in boot menu and append text bellow - shortened link to this repo centos ks file)
 
 ```
 ks=http://goo.gl/K5MgPC
@@ -16,4 +16,4 @@ ks=http://goo.gl/K5MgPC
 
 4. Wait until installation is done and VM reboots
 
-5. Conversion VM is ready, you can make a snapshot or upload its Volume to OpenStack
+5. Conversion VM is ready (default credentials: root / 123456), you can make a snapshot or upload its Volume to OpenStack
